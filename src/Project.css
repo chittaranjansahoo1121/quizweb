@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:salmon;
+  }
+/* Add the following styles to your existing CSS file */
+
+.header {
+    background-color: #3498db;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .custom-style h1 {
+    background-color: yellow;
+    border: 2px solid auto;
+    text-decoration-color: blueviolet;
+    color: blue;
+    width: 100%;
+    margin: 0%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.custom-style nav {
+    background-color: #121111;
+    overflow: hidden;
+    width: 100%;
+    margin: 0%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    box-sizing: border-box;
+}
+
+.custom-style nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.custom-style nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.search-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .search-bar {
+     position: relative;
+      padding: 10px 40px 10px 10px; 
+      border: none;
+      border-radius: 4px;
+  }
+  
+  
+  
+  .center {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: black;
+    margin-top: 40px auto;
+    padding-top: 10px ;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color:white;
+    text-align: center;
+
+
+ 
+  }
+  .Submit:hover{
+    background-color: blue;
+
+  }
+  
+  .footer{
+    background-color: black;
+    height: 100px;
+    
+    margin-top: 10px;
+    color:white;
+  }
+  
